@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "name": "Drop-down Code Editor",
+    "description": "Chrome extension for running Python Code",
+    "version": "1.0.0",
+    "icons": {
+        "128": "Extension.png"
+    },
+    "browser_action": {
+        "default_icon": "Extension.png",
+        "default_popup": "popup_index.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}

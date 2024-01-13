@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="js/skulpt/skulpt.min.js" type="text/javascript"></script>
+    <script src="js/skulpt/skulpt-stdlib.js" type="text/javascript"></script>
+    <script src="js/ide.js"></script>
+    <title>Dropdown Code Editor</title>
+</head>
+
+<body>
+
+    <div id="header"><b>Drop-down Code Editor</b><br> for <b><i>Python</i></b></div>
+
+    <br>
+
+    <form>
+        <textarea class="codearea" id="code" placeholder="Your code..." autocorrect="off" autocomplete="off"
+            autocapitalize="off" spellcheck="false"></textarea>
+        <br>
+        <br>
+        <button id="run" class="btn run_btn" type="button"><span>Execute</span></button>
+
+    </form>
+
+    <br>
+
+    <label id="lb_output" for="">Output:</label>
+    <textarea class="codearea" id="output" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">
+    </textarea>
+
+</body>
+
+</html>
